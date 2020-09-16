@@ -1,5 +1,10 @@
-# Unnamed Factorio mod #
+# Late-Game Expansion #
 
-Some factorio mod stuff for lategame coal/wood consumption.
+Expands on the mid-to-late game aspect of Factorio, providing more efficient or
+"nice to have" recipes for common crafting components such as plastic and steel.
 
-Title in progress.
+## Design ##
+
+- [Wood to Plastic (Latex)](design/latex.md)
+- [Coal coke](design/coke.md)
+- [Tar](design/tar.md)
