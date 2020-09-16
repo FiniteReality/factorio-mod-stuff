@@ -1,0 +1,9 @@
+{
+  "name": "extra-crafts",
+  "version": "0.1.0",
+  "title": "Extra Crafts",
+  "author": "Monica S.",
+  "factorio_version": "1.0",
+  "dependencies": ["base >= 1.0"],
+  "description": "Adds extra crafting recipes to make a few of the early game resources less useless during the late game."
+}
