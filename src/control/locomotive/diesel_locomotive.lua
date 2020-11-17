@@ -1,3 +1,5 @@
+local consumption_modifier = settings.global["lategame-expansion-diesel-locomotive-diesel-consumption-multiplier"]
+
 -- Gets all diesel locomotives in a train, regardless of direction
 local function find_diesel_locomotives(train)
     local result = { }
@@ -53,13 +55,13 @@ script.on_event(defines.events.on_tick, function()
                     locomotive.burner.currently_burning = locomotive_fuel
                 end
 
-                -- Refuel any trains by voiding diesel
+                -- Refuel any trains
                 if locomotive.burner.remaining_burning_fuel <= 1 then
                     local missing_units = 1
                     for i, wagon in ipairs(info.train.fluid_wagons) do
-                        missing_units - wagon.remove_fluid{
+                        missing_units = missing_units - wagon.remove_fluid{
                             name = "diesel",
-                            amount = missing_units
+                            amount = missing_units * consumption_modifier.value
                         }
 
                         -- Bail out if we've managed to satisfy our fuel needs
