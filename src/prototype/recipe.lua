@@ -1,0 +1,6 @@
+require("prototype.recipe.category")
+require("prototype.recipe.component")
+require("prototype.recipe.fluid")
+require("prototype.recipe.machine")
+require("prototype.recipe.smelting")
+require("prototype.recipe.tile")

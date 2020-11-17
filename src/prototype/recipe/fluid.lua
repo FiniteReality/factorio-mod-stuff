@@ -12,7 +12,7 @@ data:extend{
             { type = "item", name = "coke", amount = 5 },
             { type = "fluid", name = "crude-tar", amount = 1 }
         },
-        -- TODO: custom icon
+
         icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "fluid-recipes",
@@ -31,7 +31,7 @@ data:extend{
             { type = "fluid", name = "tar", amount = 5 }
         },
         main_product = "",
-        -- TODO: custom icon
+
         icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "fluid-recipes",
@@ -51,7 +51,7 @@ data:extend{
             { type = "item", name = "pitch", amount = 1 }
         },
         main_product = "",
-        -- TODO: custom icon
+
         icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "fluid-recipes",
@@ -68,7 +68,7 @@ data:extend{
         results = {
             { type = "fluid", name = "latex", amount = 5 }
         },
-        -- TODO: custom icon
+
         icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "fluid-recipes",
@@ -86,7 +86,7 @@ data:extend{
         results = {
             { type = "item", name = "latex-ball", amount = 1 }
         },
-        -- TODO: custom icon
+
         icon = "__base__/graphics/icons/fluid/basic-oil-processing.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "fluid-recipes",

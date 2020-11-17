@@ -7,5 +7,10 @@ data:extend{
     {
         type = "fuel-category",
         name = "coke"
+    },
+
+    {
+        type = "fuel-category",
+        name = "diesel-locomotive-fuel"
     }
 }

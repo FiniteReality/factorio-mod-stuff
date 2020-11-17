@@ -5,13 +5,13 @@ furnace.crafting_categories = {"blast-smelting"}
 furnace.energy_source = { type = "burner", fuel_category = "coke", fuel_inventory_size = 1 }
 furnace.fluid_boxes = {
     {
-        base_area = 1,
+        base_area = 2,
         height = 2,
-        base_level = -1,
 
         pipe_connections = {
-            { position = { -0.5, 1.1 }, type = "input" }
+            { position = { -0.5, 1.5 }, type = "input" }
         },
+
         production_type = "input",
         filter = "steam"
     }

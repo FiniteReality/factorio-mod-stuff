@@ -1,0 +1,5 @@
+require("prototype.item.component")
+require("prototype.item.fuel")
+require("prototype.item.intermediates")
+require("prototype.item.locomotive")
+require("prototype.item.tile")
